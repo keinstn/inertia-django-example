@@ -1,0 +1,21 @@
+[project]
+name = "inertia-django-example"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "django>=5.1.1",
+    "django-js-routes>=0.2.0",
+    "django-vite>=3.0.5",
+    "inertia-django>=0.6.0",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "black>=24.8.0",
+    "isort>=5.13.2",
+    "pyright>=1.1.381",
+    "python-lsp-server>=1.12.0",
+    "ruff>=0.6.7",
+]
