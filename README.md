@@ -21,6 +21,10 @@ cp .env.example .env
 ```
 
 ```bash
+python tools/generate_secret_key.py
+```
+
+```bash
 docker compose up
 ```
 
